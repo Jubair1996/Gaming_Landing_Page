@@ -43,6 +43,10 @@
   .gamer-img img{
     width: 100%;
   }
+  .online-game-card-container{
+    flex-direction: column;
+    padding: 0 20px;
+}
 }
 /* Mobile Device Responsive */
 @media screen and (max-width: 425px) {
@@ -53,7 +57,7 @@
     flex-direction: column;
   }
   .banner-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .banner-text {
     width: 100%;
@@ -79,4 +83,8 @@
   .gamer-img img{
     width: 100%;
   }
+  .online-game-card-container{
+    flex-direction: column;
+    padding: 0 20px;
+}
 }
