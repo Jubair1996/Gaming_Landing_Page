@@ -46,7 +46,8 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-.navbar-logo {
+.navbar-logo,
+.footer-container {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -399,3 +400,56 @@ button {
   font-weight: 600;
 }
 /* Game Name Section Ends */
+/* Footer Styles Starts */
+footer {
+  text-align: center;
+  margin-top: 5em;
+  background-color: #0b0223;
+  padding: 120px;
+  color: #ffffff;
+}
+.footer-container {
+  margin: 2em 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.footer-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 3em;
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  font-size: 2em;
+}
+.footer-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 3em;
+  gap: 50px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer-copy-right {
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 2em;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* Footer Styles Ends */
