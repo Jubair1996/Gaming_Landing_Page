@@ -82,6 +82,7 @@ button {
   color: #3c354f;
   background: rgba(11, 2, 35, 0.1);
   padding: 10px;
+  border: none;
 }
 .fa-youtube {
   color: red;
