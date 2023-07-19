@@ -387,9 +387,11 @@ button {
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
   padding: 10px 20px;
 }
+.game-name-title:hover{
+  color: #ff42a5;
+}
 .game-name:hover {
   border: 1px solid #ff42a5;
-  color: #ff42a5;
 }
 .game-name img {
   width: 40px;
