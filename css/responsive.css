@@ -49,17 +49,24 @@
   .instantly-container {
     flex-direction: column-reverse;
   }
-  .instantly-text {
+  .play-game-container {
+    flex-direction: column;
+  }
+  .instantly-text,
+  .play-game-text {
     width: 100%;
     text-align: center;
   }
-  .instantly-title {
+  .instantly-title,
+  .play-game-title {
     margin-top: 2em;
   }
-  .instantly-img {
+  .instantly-img,
+  .play-game-img {
     width: 100%;
   }
-  .instantly-img > img {
+  .instantly-img > img,
+  .play-game-img > img {
     width: 100%;
     height: 100%;
     display: block;
