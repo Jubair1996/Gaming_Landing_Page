@@ -73,6 +73,15 @@
     margin: 0 auto;
     padding: 30px;
   }
+  .careers-container {
+    flex-direction: column-reverse;
+  }
+  .careers-text {
+    width: 100%;
+}
+.careers-img {
+  width: 100%;
+}
 }
 /* Mobile Device Responsive */
 @media screen and (max-width: 425px) {
@@ -133,4 +142,13 @@
     margin: 0 auto;
     padding: 30px;
   }
+  .careers-container {
+    flex-direction: column-reverse;
+  }
+  .careers-text {
+    width: 100%;
+}
+.careers-img {
+  width: 100%;
+}
 }
